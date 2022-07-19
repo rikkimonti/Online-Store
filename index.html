@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <p class="logo-name">BookShop</p>
+            <img src="https://img.icons8.com/pastel-glyph/64/3e4b33/shopping-cart--v2.png" />
+            <div class="count-numb" id="count_numb"><span id="numb">1</span></div>
+        </header>
+        <div class="main-page">
+            <div class="content">
+                <div class="filter-block-media">
+                    <div class="search">
+                        <input type="search" name="search" id="search" placeholder="Search">
+                    </div>
+                    <div class="filter-content">
+                        <div class="ft ft-range">
+                            <div class="rg rg-count">
+                                <label for="customRange1" class="form-label">Example range</label>
+                                <div class="rg-slinder">
+                                    <div>0</div><input type="range" class="form-range" id="customRange1">
+                                    <div>100</div>
+                                </div>
+                            </div>
+                            <div class="rg rg-year">
+                                <label for="customRange1" class="form-label">Example range</label>
+                                <div class="rg-slinder">
+                                    <div>1984</div><input type="range" class="form-range" id="customRange1">
+                                    <div>2022</div>
+                                </div>
+                            </div>
+                            <div class="rg rg-price">
+                                <label for="customRange1" class="form-label">Example range</label>
+                                <div class="rg-slinder">
+                                    <div>5$</div><input type="range" class="form-range" id="customRange1">
+                                    <div>1000$</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ft-select">
+                            <div class="ft ft-publisher">
+                                <p>Publishing</p>
+                                <select class="pb-list" name="pb-list" id="pb-list">
+                
+                                </select>
+                            </div>
+                            <div class="ft ft-genre">
+                                <p>Genres</p>
+                                <select class="pb-list" name="pb-list" id="pb-list">
+                
+                                </select>
+                            </div>
+                            <div class="ft ft-author">
+                                <p>Author</p>
+                                <select class="pb-list" name="pb-list" id="pb-list">
+                
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-filter">
+                        <button type="reset" class="btn-reset">Clear All</button>
+                    </div>
+                </div>
+                
+                <div class="filter-block">
+                    <div class="search">
+                        <input type="search" name="search" id="search" placeholder="Search">
+                    </div>
+                    <div class="ft ft-range">
+                        <div class="rg rg-count">
+                            <label for="customRange1" class="form-label">Example range</label>
+                            <div class="rg-slinder">
+                                <div>0</div><input type="range" class="form-range" id="customRange1">
+                                <div>100</div>
+                            </div>
+                        </div>
+                        <div class="rg rg-year">
+                            <label for="customRange1" class="form-label">Example range</label>
+                            <div class="rg-slinder">
+                                <div>1984</div><input type="range" class="form-range" id="customRange1">
+                                <div>2022</div>
+                            </div>
+                        </div>
+                        <div class="rg rg-price">
+                            <label for="customRange1" class="form-label">Example range</label>
+                            <div class="rg-slinder">
+                                <div>5$</div><input type="range" class="form-range" id="customRange1">
+                                <div>1000$</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ft ft-publisher">
+                        <p>Publishing</p>
+                        <select class="pb-list" name="pb-list" id="IDpb-list">
+                
+                        </select>
+                    </div>
+                    <div class="ft ft-genre">
+                        <p>Genres</p>
+                        <select class="pb-list" name="pb-list" id="IDpb-listGenere">
+                
+                        </select>
+                    </div>
+                    <div class="ft ft-author">
+                        <p>Author</p>
+                        <select class="pb-list" name="pb-list" id="IDpb-listAuthor">
+                
+                        </select>
+                    </div>
+                    <div class="btn-filter">
+                        <button type="reset" class="btn-reset">Clear All</button>
+                    </div>
+                </div>
+        
+                <div class="products-block">
+                    <div class="sortBy-block">
+                        <h2>All Products</h2>
+                        <div class="srB-box">
+                            <span>Sort By</span>
+                            <select name="sortBy" id="sortBy">
+                                <option value="name (A-z)">name (A-z)</option>
+                                <option value="name (z-A)">name (z-A)</option>
+                                <option value="year (decrease)">year (decrease)</option>
+                                <option value="year (increase)">year (increase)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grid-container">
+                        <!-- box div -->
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2022 <a href="https://github.com/rikkimonti">RikkiMonti</a></p>
+            <div class="links-page">
+                <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt=""></a>
+            </div>
+        </footer>
+
+        <script src="src/index.js"></script>
+    </div>
+</body>
+</html>
